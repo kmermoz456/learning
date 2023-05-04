@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord administrateur responsive</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigateur">
+            <ul>
+
+                <li>
+                    <a href="#">
+
+                        <span class="icon"><i class="bi bi-bag-dash-fill"></i></span>
+                        <span class="title">
+                            <h2 class="text-red">WydeMarcket</h2>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+
+                        <span class="icon"><i class="bi bi-speedometer"></i></span>
+                        <span class="title">Tableau de bord</span>
+                    </a>
+                </li>
+
+                </a>
+                <li>
+                    <a href="#">
+
+                        <span class="icon"><i class="bi bi-person-lines-fill"></i></span>
+                        <span class="title">Customers</span>
+                    </a>
+
+                </li>
+
+
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="bi bi-chat-dots-fill"></i></span>
+                        <span class="title">Message</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="bi bi-info-circle-fill"></i></span>
+                        <span class="title">Help </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="bi bi-key-fill"></i></span>
+                        <span class="title">Password </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="bi bi-gear-fill"></i></span>
+                        <span class="title">Settings </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="#">
+                        <a href="#">
+                            <span class="icon"><i class="bi bi-box-arrow-right"></i></span>
+                            <span class="title">sign Out </span>
+                        </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <i class="bi bi-menu-button-wide"></i>
+                </div>
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="search here" />
+                        <i class="bi bi-search"></i>
+                    </label>
+
+                </div>
+
+                <div class="user">
+                    <img width="45" height="50" src="admin.jpg" />
+                </div>
+            </div>
+
+
+
+
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">1.204</div>
+                        <div class="cardName">Membres</div>
+                    </div>
+                    <div class="iconBox">
+                        <i class="bi bi-person-square"></i>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">80</div>
+                        <div class="cardName">Commandes </div>
+                    </div>
+                    <div class="iconBox">
+                        <i class="bi bi-cart4"></i>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class=" ">8.000.000 CFA</div>
+                        <div class="cardName">Solde</div>
+                    </div>
+                    <div class="iconBox">
+                        <i class="bi bi-cash-coin"></i>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">1.500 CFA</div>
+                        <div class="cardName">Commentaires</div>
+                    </div>
+                    <div class="iconBox">
+                        <i class="bi bi-chat-left-text-fill"></i>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="details">
+
+                    <div class="recentOrders">
+                        <div class="cardHeader">
+                            <h2>Recent Orders</h2>
+                            <a href="#" class="btn">View all</a>
+                        </div>
+                   
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>name</td>
+                                <td>Price</td>
+                                <td>payement</td>
+                                <td>status</td>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>120.000 CFA</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>120.000 CFA</td>
+                                <td>paid</td>
+                                <td><span class="status inprogress">progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Windows </td>
+                                <td>50.000 CFA</td>
+                                <td>Due</td>
+                                <td><span class="status delivered">pending</span></td>
+                            </tr>
+
+
+                            <tr>
+                                <td>Lenovo ipead</td>
+                                <td>320.000 CFA</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">delivered</span></td>
+                            </tr>
+                            <tr>
+
+                                <td>Speadkers</td>
+                                <td>90.000 CFA</td>
+                                <td>Paid</td>
+                                <td><span class="status retrun">Return</span></td>
+                            </tr>
+                            <tr>
+                                <td>Hp latop</td>
+                                <td>420.000 CFA</td>
+                                <td>Due</td>
+                                <td><span class="status pending">pending</span></td>
+                            </tr>
+
+
+                          
+                            <tr>
+                                <td>Star Refrigerator</td>
+                                <td>120.000 CFA</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">delivered</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Windows </td>
+                                <td>50.000 CFA</td>
+                                <td>Due</td>
+                                <td><span class="status pending">pending</span></td>
+                            </tr>
+
+
+                            <tr>
+                                <td>Lenovo ipead</td>
+                                <td>320.000 CFA</td>
+                                <td>Paid</td>
+                                <td><span class="status delivered">delivered</span></td>
+                            </tr>
+                            <tr>
+                                <td>Speadkers</td>
+                                <td>90.000 CFA</td>
+                                <td>Paid</td>
+                                <td><span class="status retrun">Return</span></td>
+                            </tr>
+                            <tr>
+                                <td>Hp latop</td>
+                                <td>420.000 CFA</td>
+                                <td>Due</td>
+                                <td><span class="status pending">pending</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Hp latop</td>
+                                <td>420.000 CFA</td>
+                                <td>Due</td>
+                                <td><span class="status inprogress">progress</span></td>
+                            </tr>
+
+
+                            
+                        </tbody>
+                    </table>
+                </div>
+                    <div class="recentCustomers">
+                        <div class="cardHeader">
+                            <h2>Recent Customers</h2>
+                            <a href="#" class="btn">View all</a>
+                        </div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td width="60px"><div class="imgBx"><img width="120" height="200" src="img1.jpg"></div></td>
+                                    <td><h4>David<br><span>Italy</span></h4></td>
+                                </tr>
+
+                                <tr>
+                                    <td width="60px"><div class="imgBx"><img width="125" height="200" src="img2.jpg"></div></td>
+                                    <td><h4>Jhon<br><span>Usa</span></h4></td>
+                                </tr>
+
+                                <tr>
+                                    <td width="60px"><div class="imgBx"><img  width="125" height="200"src="img3.jpg"></div></td>
+                                    <td><h4>Sanchez<br><span>Colombia</span></h4></td>
+                                </tr>
+
+                                <tr>
+                                    <td width="60px"><div class="imgBx"><img width="125" height="200" src="admin.jpg"></div></td>
+                                    <td><h4>Cynthia<br><span>Ivoiry cost</span></h4></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="60px"><div class="imgBx"><img width="125" height="200" src="img5.jpg"></div></td>
+                                        <td><h4>Mermoz<br><span>Deutsh</span></h4></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td width="60px"><div class="imgBx"><img width="125" height="200" src="img6.jpg"></div></td>
+                                        <td><h4>Frederic<br><span>Deutsh</span></h4></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="60px"><div class="imgBx"><img width="125" height="200" src="img7.jpg"></div></td>
+                                        <td><h4>Pambim<br><span>Ivoiry cost</span></h4></td>
+                                    </tr>
+
+
+                                
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+
+        let toggle = document.querySelector('.toggle .bi');
+
+        toggle.addEventListener('click', function (e) {
+            let toggle = document.querySelector('.toggle');
+            let navigateur = document.querySelector('.navigateur');
+            let main = document.querySelector('.main');
+
+            toggle.classList.toggle('active');
+            main.classList.toggle('active');
+            navigateur.classList.toggle('active');
+        })
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+.section-one{
+    background-color: #f2f2f2 ;
+    font-family: 'Arial';
+    
+}
+
+.percent {
+    width: 150px;
+    height: 150px;
+    color: white;
+    align-content: center;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    padding-top: 30px;
+    font-weight: bolder;
+}
+
+.img {
+  border: 10px solid #000;
+  border-radius: 50%;
+  background-color: rgb(150, 29, 29);
+  margin: 10px;
+}
+.img, img{
+    padding: 0;
+}
+.btn-color{
+    padding-left: 10px ;
+    padding-right: 10px ;
+    padding-bottom: 10px ;
+    padding-top: 10px ;
+    background: #4d0aa5;
+    transition:0.5s box-shadow;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-choix{
+    padding-left: 10px ;
+    padding-right: 10px ;
+    padding-bottom: 10px ;
+    padding-top: 10px ;
+    transition:0.5s box-shadow;
+    text-align: center;
+    color: #fff;
+}
+.btn-dark{
+    padding-left: 10px ;
+    padding-right: 10px ;
+    padding-bottom: 10px ;
+    padding-top: 10px ;
+    transition:0.5s box-shadow;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-white{
+    padding: 10px 20px;
+    background: #fff;
+    text-align: center;
+    color: #000;
+    transition:0.5s box-shadow;
+}
+
+.sub-menu{
+    background-color: #fff;
+}
+.bms-sub-menu li:hover{
+    background-color: #4d0aa5;
+    color: white;
+}
+.items-center{ /*Le bouton inscription*/
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.banner{
+    
+}
+
+.banner h1{
+    font-size: 4em;
+    font-weight: 900;
+    font-family: 'arial';
+}
+.banner h1 span{
+    color: #4d0aa5;
+}
+
+.banner-1{
+    width: 60%;
+}
+
+.banner-2{
+    width: 35%;
+}
+.banner-1 .text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.avantages div{
+    max-width: 500px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.user{
+    position: relative;
+    min-width: 50px;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.user .img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sibebar{
+    min-width: 20%;
+    min-height: 600px;
+}
+
+/*Pagination*/
+
+.pagination{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+.pagination li a{
+ margin-left: 20px;
+ cursor: pointer;
+}
+
+
+/*Table admin*/
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.table {
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    --bs-table-accent-bg: var(--bs-table-striped-bg);
+    color: var(--bs-table-striped-color);
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+.table > :not(caption) > * > * {
+    padding: .5rem .5rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+
+.table-bordered > :not(caption) > * > * {
+    border-width: 0 1px;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    --bs-table-accent-bg: var(--bs-table-striped-bg);
+    color: var(--bs-table-striped-color);
+}
+
+.table-bordered > :not(caption) > * {
+    border-width: 1px 0;
+}
+
+.table > tbody {
+    vertical-align: inherit;
+}
+
+@media (max-width: 768px) {
+    .show,.img{
+        display: none;
+    }
+    .banner{
+        display: block;
+        width: 100%;
+        
+    }
+    .banner-1{
+        width: 100%;
+        
+    }
+    .banner h1{
+        font-size: 40px;
+    }
+    .banner-1 .text{
+        font-size: 20px;
+
+    }
+   
+    }
